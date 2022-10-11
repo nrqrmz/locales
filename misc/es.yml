@@ -1,0 +1,41 @@
+---
+es:
+  create_mascot:
+    name: Mascota
+    error: Mascota ya fue creada
+  broadcast:
+    welcome:
+      ask_question: "¡Aquí Sloan! 👋 Me di cuenta de que aún no <a href='https://dev.to/t/explainlikeimfive'>has hecho una pregunta</a>. Hacer una pregunta es fácil; solo haz clic en ¡'Crear publicación' en la barra lateral de la página de etiquetas para comenzar!"
+      customize_experience: "¡Aquí Sloan! 👋 ¿Sabías que puedes personalizar tu experiencia DEV? ¡Intenta cambiar <a href='settings/customization'>la fuente y el tema</a> y encuentra el mejor estilo para ti!"
+      customize_feed: "¡Hola, soy yo otra vez! 👋 Ahora que eres parte de la comunidad DEV, concentrémonos en personalizar tu contenido. Puedes comenzar por <a href='/tags'>seguir algunas etiquetas</a> para ayudar a personalizar tu feed! 🎉"
+      discuss_and_ask: "¡Aquí Sloan! 👋 Noté que no <a href='https://dev.to/t/explainlikeimfive'>has hecho una pregunta</a> o <a href='https://dev.to /t/discuss'>comenzado una discusión</a> todavía. Es fácil hacer ambas cosas; simplemente haga clic en 'Crear publicación' en la barra lateral de la página de etiquetas para comenzar".
+      download_app: "¡Aquí Sloan, con un último consejo! 👋 ¿Ya descargaste la aplicación móvil de DEV? Considera <a href='https://dev.to/downloads'>descargarla</a> para que puedas acceder a todos tus contenidos favoritos"
+      set_up_profile: "¡Bienvenido a DEV! 👋 Soy Sloan, la mascota de la comunidad y estoy aquí para ayudarte a comenzar. ¡Empecemos por <a href='/settings'>configurar tu perfil</a>!"
+      start_discussion: "¡Aquí Sloan! 👋 Me di cuenta de que aún no has <a href='https://dev.to/t/discuss'>iniciado una discusión</a>. Iniciar una discusión es fácil; solo haz clic en ¡'Crear publicación' en la barra lateral de la página de etiquetas para comenzar!"
+      welcome_thread: "¡Sloan aquí de nuevo! 👋 DEV es una comunidad amistosa. ¿Por qué no te presentas dejando un comentario en <a href='/welcome'>el hilo de bienvenida</a>!"
+    connect:
+      apple: "¡Estás en racha! 🎉 ¿Tienes una cuenta de Apple? Considera <a href='/settings'>conectarla</a>".
+      facebook: "¡Estás en racha! 🎉 ¿Tienes una cuenta de Facebook? Considera <a href='/settings'>conectarla</a>".
+      forem: "¡Estás en racha! 🎉 ¿Tienes una cuenta de Forem? Considera <a href='/settings'>conectarla</a>".
+      github: "¡Estás en racha! 🎉 ¿Tienes una cuenta de GitHub? Considera <a href='/settings'>conectarla</a> para que puedas anclar cualquiera de tus repositorios a tu perfil".
+      google: "¡Estás en racha! 🎉 ¿Tienes una cuenta de Google? Considera <a href='/settings'>conectarla</a>".
+      twitter: "¡Estás en racha! 🎉 ¿Tienes una cuenta de Twitter? Considera <a href='/settings'>conectarla</a> para que podamos @mencionarte si compartimos tu publicación a través de nuestra cuenta de Twitter <a href ='https://twitter.com/thePracticalDev'>@thePracticalDev</a>".
+  errors:
+    authentication:
+      errors:
+        suspended: Parece que su cuenta anterior de %{community_name} fue suspendida. Como tal, hemos tomado medidas para evitar que cree una nueva cuenta con %{community_name} y su comunidad. Si cree que se ha producido un error, envíenos un correo electrónico a %{community_email} y volveremos a examinarlo.
+    fastly_config:
+      must_be_array: 'configs: debe ser una array de strings'
+      invalid_config: "Configuración de Fastly no válida: %{invalid_config}. Solo %{valid_configs_join} son válidos."
+  policies:
+    application_policy:
+      must_be_logged_in: debe haber iniciado sesión
+      you_must_be_logged_in: debe haber iniciado sesión
+      your_account_is_suspended: su cuenta está suspendida
+    liquid_tag_policy:
+      no_user_found: Usuario no encontrado
+      not_permitted: El usuario no tiene permitido usar esta etiqueta líquida
+  uploaders:
+    base_uploader:
+      too_many_frames: El GIF contiene demasiados fotogramas. El número máximo de fotogramas permitido es %{frame_max}.
+      timeout: Se agotó el tiempo de procesamiento de la imagen.
