@@ -1,0 +1,126 @@
+---
+es:
+  models:
+    api_secret:
+      api_limit_reached: Se ha alcanzado el límite de 10 secretos de API por usuario
+    application_record:
+      uninferrable: No se pudo inferir un decorador para %{class}.
+    article:
+      a_post_by: Una publicación de %{user_name}
+      video_unpermitted: no puede ser agregado por un miembro sin permiso
+      video_processing: no se puede establecer como verdadero si el video aún se está procesando
+      cannot_search_tags_for: 'No se pueden buscar etiquetas para: %{tag}'
+      cannot_search_tags_for_tags: 'No se pueden buscar etiquetas para: %{tag}'
+      unique_coauthor: Los ID de coautor deben ser únicos.
+      too_many_tags: supera el máximo de 4 etiquetas
+      is_too_long: es demasiado largo.
+      invalid_date: debe ingresarse en formato DD/MM/AAAA con fecha actual o pasada
+      series_unpermitted: debe ser uno en el que tenga permiso para publicar
+      invalid_coauthor: deben ser IDs de usuario válidas
+      same_author: No debe ser el mismo usuario que el autor.
+      must_not_have_spaces: no debe tener espacios
+      published: Publicado
+      unique_url: ya se ha tomado. Envíe un correo electrónico a %{email} para obtener más detalles.
+      future_or_current_published_at: solo se permite la publicación actual o futura al publicar un artículo
+      immutable_published_at: No se permite actualizar la fecha de publicación para artículos que ya han sido publicados.
+      mention_too_many:
+        one: ¡No puede mencionar a más de %{count} usuarios en una publicación!
+        other: ¡No puede mencionar a más de %{count} usuarios en una publicación!
+    broadcast:
+      single_active: Solo se puede tener una anuncio de transmisión activo
+    comment:
+      deleted: '[eliminado]'
+      has_been_deleted: '%{type} ha sido eliminado.'
+      hidden: '[oculto por el autor de la publicación]'
+      is_not_valid: No es válido
+      locked: la discusión está bloqueada para esta publicación
+      type:
+        Article: Artículo
+        item: ítem
+        PodcastEpisode: episodio de podcast
+      suspended_too_many: Usuario suspendido por demasiadas interacciones de spam, provocadas por autovomit.
+      mention_too_many:
+        one: ¡No puede mencionar más de %{count} usuarios en un comentario!
+        other: ¡No puede mencionar más de %{count} usuarios en un comentario!
+    feedback_message:
+      reported: 'usted reportó anteriormente esta URL.'
+    github_issue:
+      issue_comment_not_found: ID del comentario %{issue_id} no encontrado
+      issue_not_found: comentario %{issue_id} no encontrado
+    html_variant:
+      no_edits: no puede cambiar una vez publicado y aprobado
+    identity:
+      no_email_msg: No se ha encontrado ningún correo electrónico. Por favor, vuelva a vincular su cuenta de %{provider} para evitar errores.
+    listing:
+      too_many_tags: supera el máximo de 8 etiquetas
+      too_many_linebreaks: tiene demasiados saltos de línea. No se permiten más de 12.
+      image_not_allowed: No está permitido incluir imágenes.
+      liquid_not_allowed: no está permitido incluir etiquetas líquidas.
+    mention:
+      is_not_valid: No es válido.
+    organization:
+      integer_only: Solo números enteros. No se permite ningún otro caracter.
+      reserved_word: '%<value>s es una palabra reservada. Comuníquese con los administradores del sitio para obtener ayuda para registrar su organización.'
+    page:
+      body_must_exist: debe existir si body_html o body_json no existen.
+    podcast:
+      slug_is_reserved: el slug está reservado
+    podcast_episode_appearance:
+      provided_role_is_not_valid: el rol proporcionado no es válido
+    poll_skip:
+      cannot_vote_more_than_once: no se puede votar más de una vez en una encuesta
+    poll_vote:
+      cannot_vote_more_than_once: no se puede votar más de una vez en una encuesta
+    profile_pin:
+      only_five: no puede tener más de cinco publicaciones fijadas en total
+      pin_unpermitted: debe tener los permisos adecuados para fijar publicaciones
+    rating_vote:
+      not_permitted: no está autorizado a realizar esta acción.
+    reaction:
+      is_not_valid: no es válido.
+    response_template:
+      user_nil_only: no puede tener un ID de usuario asociado.
+      comment_markdown: Las plantillas de comentarios deben usar Markdown como su tipo de contenido.
+      email_text: Las plantillas de correo electrónico deben usar texto sin formato o HTML como tipo de contenido.
+      limit_reached: Se ha alcanzado el límite de 30 plantillas de respuesta por usuario
+    settings:
+      campaign:
+        share_your_project: Comparte tu proyecto
+      community:
+        message: no puede incluir el carácter "<" nor ">"
+        new_forem: Forem Nuevo
+        user: usuario
+      general:
+        community_sponsors: Patrocinadores de la comunidad
+        the_community_mascot: la mascota de la comunidad
+      user_experience:
+        message: 'debe ser un hexadecimal de 3 o 6 caracteres (comenzando con #)'
+    tag:
+      alias_for: alias_for debe hacer referencia a una etiqueta existente
+    tag_adjustment:
+      too_many_tags: 4 etiquetas como máximo por artículo.
+      unpermitted: no tiene privilegios para ajustar estas etiquetas
+      not_live: seleccionado para su eliminación, no es una etiqueta activa.
+      unique: no puede ser una etiqueta ya ajustada
+    tweet:
+      tweet_not_found: Tweet no encontrado
+      authentication_error: Error de autenticación; comuníquese con su administrador de Forem sobre las posibles claves de Twitter faltantes
+    user:
+      could_not_send: No se pudo enviar la confirmación. %{e_message}
+      password_not_matched: no coincide con la confirmación de la contraseña
+      has_been_banished: ha sido desterrado.
+      is_taken: '%{username} ya está tomado.'
+      user_could_not_be_saved: No se pudo guardar el usuario. %{e_message}
+      username_is_reserved: el nombre de usuario está reservado
+    user_block:
+      cant_be_the_same: no puede ser lo mismo que el id_bloqueado
+    user_subscription:
+      non_apple: No puede suscribirse con un repetidor privado de Apple. Actualice el correo electrónico.
+      source_not_found: Fuente no encontrada. ¡Asegúrese de que su %{source} esté activa!
+      not_enabled: Las suscripciones de usuario no están habilitadas para la fuente.
+    users:
+      deleted_user:
+        name: '[Usuario Eliminado]'
+      setting:
+        invalid_hex: no es un color hexadecimal válido
+        invalid_rss: no es un feed válido de RSS/Atom
