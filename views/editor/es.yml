@@ -1,0 +1,28 @@
+---
+es:
+  views:
+    editor:
+      meta:
+        title: Editar Publicación
+      heading:
+        new: Nueva Publicación
+      create: Crear Publicación
+      close:
+        icon: Cerrar
+        title: Cerrar el editor
+      cover_image:
+        add: Agregar una imagen de portada
+        change: Cambiar
+      edit: Editar
+      modes: Ver modos de publicación
+      new_title: Título de la nueva publicación aquí...
+      preview: Vista previa
+      video:
+        progress:
+          heading: "⏳ Transcodificación de video en curso ⏳"
+          notice_1: Recibirás un correo electrónico cuando finalice este proceso.
+          notice_2: Esta es una publicación ordinaria y sin publicar. Agregue título/etiquetas/cuerpo/etc, y luego márquelo como publicado después de que el video haya terminado de procesarse.
+        submit_image:
+          button: Enviar cambio
+          text: 'URL de la imagen de vista previa: '
+          placeholder: Nueva URL en miniatura
