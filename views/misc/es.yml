@@ -1,0 +1,138 @@
+---
+es:
+  views:
+    badges:
+      meta:
+        title: Insignias
+        name: "Insignia de %{title}"
+      all:
+        one: Mostrar una insignia
+        other: Mostrar todas las insignias %{count}
+      heading: Insignias
+      desc: ¡Recibe insignias por ser increíble! Haga clic en una insignia para ver cómo puede obtenerla.
+      name: "🏅 Insignia de %{title} 🏅"
+    campaign:
+      subtitle: Historias (%{count})
+      view: Ver todas las publicaciones
+    deep_links:
+      subtitle: Abriendo la aplicación móvil...
+      alert:
+        subtitle: ¡Vaya! ¿Te quedaste atascado al intentar abrir la aplicación móvil?
+        desc_html: Asegúrate de que esté instalado e inténtalo de nuevo. Si el problema persiste, comuníquese con %{email}
+        back: Llévame de regreso
+        again: Intentar otra vez
+        install: Instala la aplicación
+    email_subscriptions:
+      unsubscribe:
+        heading: "Se ha dado de baja de %{type}. 😔"
+        description_html: Ya no recibirás correos como este. Si desea volver a suscribirse o administrar todas sus preferencias de correo electrónico, por favor %{link}.
+        link: haga clic aquí
+      invalid:
+        heading: Token caducado o inválido
+        description_html: Por favor, %{signin} para administrar sus preferencias de correo electrónico.
+        signin: inicie sesión
+    hamburger:
+      icon: Menú de Navegación
+      icon_close: Cerrar
+      icon_left: Menú izquierdo
+      icon_right: Menú derecho
+    logo:
+      color_1:
+        label: color de la marca 1
+        description: Utilizado para fondos, bordes, etc.
+      color_2:
+        label: color de la marca 2
+        description_html: Se utiliza para textos (normalmente se pone en <em>Color de marca 1</em>).
+      preview:
+        icon: logotipo de la aplicación
+        text: 'Vista previa:'
+    onboardings:
+      meta:
+        title: Bienvenido a %{comunidad}
+      heading: ¡Ahora eres parte de la comunidad!
+      subtitle: COSAS SUGERIDAS QUE PUEDE HACER
+      close: Cerrar mensaje de bienvenida
+      settings_html: "<span class=\"emoji\">💅🏼</span>Personaliza tu perfil"
+      welcome_html: "<span class=\"emoji\">😊</span>Únete al hilo de bienvenida"
+      write_html: "<span class=\"emoji\">✍🏾</span>Escribe tu primera publicación en %{community}"
+    pins:
+      article: Fijado
+      pinned: "📌 ¡Fijado! (las publicaciones ancladas se muestran cronológicamente, 5 como máximo)"
+      removed: "🗑 Pin eliminado"
+      error: Solo puedes tener cinco pines
+    profile:
+      color:
+        label: color de la marca
+        description: Utilizada para fondos, bordes, etc.
+    reading_list:
+      meta:
+        title: Lista de lectura
+        description: Mis publicaciones guardadas.
+        og:
+          title: Lista de lectura - %{community}
+    search:
+      heading: Resultados de la búsqueda%{for}
+      for: " para %{query}"
+      placeholder: Buscar...
+      icon:
+        aria_label: Buscar
+        title: Buscar
+      nav:
+        posts: Publicaciones
+        podcasts: Podcasts
+        people: Personas
+        comments: Comentarios
+        my_posts: solo mis publicaciones
+        tags: Etiquetas
+      sort:
+        aria_label: Opciones de clasificación de resultados de búsqueda
+        relevance: Más relevante
+        newest: Más nuevo
+        oldest: Más antiguo
+      meta:
+        title: Resultados de la búsqueda%{for}
+        for: " para %{query}"
+        description: "%{site} => Resultados de búsqueda"
+    series:
+      meta:
+        description: Ver %{title} en %{site}
+      heading: "Serie de %{user}"
+      empty: Este usuario no tiene ninguna serie.
+      list:
+        heading: "Artículos de la serie %{series}"
+        back: Volver a la serie de %{user}
+        empty: Esta serie no tiene artículos.
+    stats:
+      meta:
+        title: Estadísticas para su artículo
+      heading_html: Estadísticas de "%{article}"
+      period:
+        aria_label: Período de análisis
+        week: Semana
+        month: Mes
+        infinity: Infinito
+      readers: Resumen de los lectores
+      followers: Resumen de nuevos seguidores
+      reactions: "Resumen de reacciones ❤🦄🔖"
+      comments: "Resumen de comentarios 💬"
+      traffic:
+        text: "Resumen de fuente de tráfico 🚦"
+        source: Fuente
+        views: Puntos de vista
+    sticky:
+      joined: Unido
+      default_cta: Aprende más
+      email: Correo electrónico
+      hot: Caliente
+      location: Ubicación
+      more_from_html: Más de %{actor}
+      no_summary: Publicaciones en esta etiqueta
+      trending_html: Tendencia en %{app}
+    videos:
+      meta:
+        title: Videos
+        og:
+          description: Todos los videos en %{community}
+      heading: "%{community} en vídeo"
+      beta_html: "<strong>El video es beta:</strong> %{contact}"
+      upload: "🎥 Subir archivo de video 🙌"
