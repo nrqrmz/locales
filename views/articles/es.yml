@@ -1,0 +1,102 @@
+---
+es:
+  views:
+    articles:
+      meta:
+        description: Un artículo de la comunidad.
+      actions:
+        aria_label: Acciones de artículo
+      comments:
+        aria_label: Añadir un comentario a la publicación - %{title}
+        sort_button:
+          aria_label: Ordenar comentarios
+        subtitle:
+          top_html: Comentarios principales %{num}
+          latest_html: Últimos comentarios %{num}
+          oldest_html: Comentarios más antiguos %{num}
+        num: "(%{num})"
+        subscribe: Suscribirse
+      conduct:
+        aria_label: controles de conducta
+        code: Código de Conducta
+        report: Reportar abuso
+      delete:
+        heading: ¿Está seguro de que desea eliminar este artículo?
+        desc:
+          text_html: No puede deshacer esta acción, ¿quizás solo desee %{action} en su lugar?
+          edit: editar
+          unpublish: despublicar
+        action:
+          button: Borrar
+          cancel: Despedir
+          edit: Editar
+          unpublish: despublicar
+      jump_to_comments:
+        aria_label: Saltar a los comentarios
+        label: Saltar a los comentarios
+      lock:
+        meta:
+          title: Confirmar bloqueo de la discusión
+        heading: ¿Está seguro de que desea bloquear la discusión en esta publicación?
+        desc_html: Los usuarios no podrán añadir nuevos comentarios. Esto <em class="fw-bold">no</em> eliminará los comentarios existentes. Puede desbloquear la discusión en cualquier momento para permitir que los usuarios vuelvan a dejar comentarios.
+        cancel: Cancelar
+        notes:
+          label: 'Notas (opcional): esto solo es visible para usted y los administradores'
+          placeholder: Más detalles de por qué usted bloqueó la discusión.
+        reason:
+          label: 'Razón para bloquear la discusión (opcional): esto se mostrará públicamente'
+          placeholder: La razón por la que está bloqueando esta discusión.
+        submit: Bloquear discusión
+      preview_discuss_html:
+        zero: ¡Nueva discusión!
+        one: '#discutir <img src="%{image}" />%{count}'
+        other: '#discutir <img src="%{image}" />%{count}'
+      save:
+        title: Guardar en la lista de lectura
+        aria_label: Guardar en la lista de lectura
+        initial: Guardar
+        success: Guardado
+      scheduled:
+        subtitle: Publicación programada.
+        text: "Esta URL es pública pero secreta, así que compártala a su propia discreción".
+        edit: Haz click para editar
+      series:
+        subtitle: "%{slug} (%{size})"
+        size:
+          one: "Serie de %{count} Partes"
+          other: "Serie de %{count} Partes"
+        published: Publicado el %{date}
+        inbetween:
+          num: "..."
+          text:
+            one: una parte más...
+            other: "%{count} partes más..."
+          title: Ver más
+      unlock:
+        meta:
+          title: Confirmar desbloqueo de la discusión
+        heading: ¿Está seguro de que desea desbloquear la discusión en esta publicación?
+        desc: Los usuarios podrán añadir nuevos comentarios. Puede bloquear la discusión en cualquier momento para evitar que los usuarios vuelvan a dejar comentarios.
+        cancel: Cancelar
+        notes: 'Notas de cuando se bloqueó esta discusión (solo visibles para usted y los administradores):'
+        reason: 'Razón por la que esta discusión fue bloqueada (visible públicamente):'
+        submit: Desbloquear la discusión
+      unpublished:
+        subtitle: Publicación no publicada.
+        text: " Esta URL es pública pero secreta, así que compártala a su propia discreción".
+        edit: Haz click para editar
+      co_authors_html: con %{names}
+      crossposted:
+        text_html: Publicado originalmente en %{url} %{on}
+        on_html: en %{date}
+      edited: Actualizado el %{date}
+      edited_html: Actualizado el %{fecha}
+      for_org_html: "%{start} para %{end}%{org}"
+      missing: Artículo ya no disponible
+      published_html: Publicado en %{date}
+      scheduled_html: Programado para %{date}
+      read_next: Leer siguiente
+      reading_time:
+        one: "1 minuto de lectura"
+        other: "%{count} minutos de lectura"
+      right_nav: Detalles del autor
