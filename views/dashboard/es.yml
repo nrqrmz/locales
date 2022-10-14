@@ -1,0 +1,152 @@
+---
+es:
+  views:
+    dashboard:
+      meta:
+        title: Tablero - %{site}
+      heading: Tablero
+      actions:
+        mobile:
+          posts: Publicaciones (%{num})
+          followers: seguidores (%{num})
+          following_tags: etiquetas de seguimiento (%{num})
+          following_users: siguiendo usuarios (%{num})
+          following_orgs: siguiendo organizaciones (%{num})
+          following_pods: siguiendo podcasts (%{num})
+        posts: Publicaciones
+        series: Series
+        followers: Seguidores
+        following_tags: etiquetas de seguimiento
+        following_users: siguiendo usuarios
+        following_orgs: siguiendo organizaciones
+        following_pods: siguiendo podcasts
+        listings: Listados
+        analytics: Analíticas
+        for_org: Analíticas para %{org}
+        upload: Subir un video
+      analytics:
+        meta:
+          title: Analíticas
+        heading: Tablera de analíticas para %{name}
+        desc_1: Bienvenido al panel de análisis, el hogar de métricas de usuario detalladas para que los autores puedan tomar decisiones basadas en datos sobre el ecosistema de %{members}.
+        desc_2: Este tablero destaca información detallada especialmente relevante para las relaciones de %{members}, autores y blogueros serios.
+        back: "👈 Volver al panel principal"
+        your: Tu panel
+        org: "Panel de análisis de %{org}"
+      article:
+        heading:
+          text_html: "%{archived}%{title}"
+          archived: "[Archivado] "
+        archived: Archivado
+        published: 'Publicado:'
+        published_html: 'Publicado: %{date}'
+        edited: 'Editado:'
+        edited_html: 'Editado: %{date}'
+        series: 'Series:'
+        series_html: "<strong>Series:</strong> %{series}"
+        draft: borrador
+        scheduled: Programado
+        scheduled_at: 'Programado:'
+        reactions:
+          title: reacciones
+          icon: reacciones
+          text_html:
+            one: "%{num} reacción"
+            other: "%{num} reacciones"
+        comments:
+          title: Comentarios
+          icon: Comentarios
+          text_html:
+            one: "%{num} comentario"
+            other: "%{num} comentarios"
+        views:
+          title: Vistas
+          icon: Vistas
+          lt_25: "< 25"
+          text_html:
+            one: "%{scale} vista"
+            other: "%{scale} vistas"
+          u_25: Menos de 25
+        subscriptions:
+          title: Suscripciones
+          icon: Datos
+          number: Suscripciones (%{num})
+        delete: Borrar
+        unpin: desfijar
+        pin:
+          title: Anclar al perfil
+          button: Anclar al perfil
+          text: Fijar
+        manage:
+          aria_label: 'Administrar publicación: %{title}'
+          text: Administrar
+        lock: Bloquear discusión
+        unlock: desbloquear discusión
+        edit:
+          aria_label: 'Editar publicación: %{title}'
+          text: Editar
+        more:
+          title: 'Más opciones de publicación: %{title}'
+          icon: Más...
+        stats: Estadísticas
+        archive: Archivar publicación
+        unarchive: Desarchivar publicación
+        author: Autor
+        author_is: 'AUTOR: '
+        save: Guardar
+        submit: Enviar cambio de autor
+      followers:
+        heading: Tablero » Seguidores
+        empty: Aún no tienes seguidores...
+      following_orgs:
+        heading: Tablero » Organizaciones seguidas
+        empty: Aún no sigues a ninguna organización...
+      following_pods:
+        heading: Tablero » Podcasts seguidas
+        empty: Aún no sigues ningún podcast...
+      following_tags:
+        heading: Tablero » Siguientes etiquetas
+        adjust: Ajuste la prioridad de la etiqueta para modificar su feed de inicio. Los valores más altos significan más apariciones para esa etiqueta
+        anti:
+          title: Esta etiqueta tiene peso de seguimiento negativo
+          text: Anti-seguimiento
+        default: Default 1.0
+        empty: Aún no sigues ninguna etiqueta...
+        number:
+          aria_label: "%{name} prioridad de etiqueta"
+        update: actualizar prioridades
+      following_users:
+        heading: Tablero »Siguiendo usuarios
+        empty: No sigues a ningún usuario
+      listings:
+        meta:
+          title: Panel de listados
+      posts:
+        heading: Publicaciones
+        archived: Mostrar archivado
+        option:
+          creation-desc: Creado recientemente
+          published-desc: Recientemente publicado
+          views-desc: Más vistas
+          reactions-desc: Más reacciones
+          comments-desc: Más comentarios
+          aria_label: Ordenar por
+        org: "%{name} (%{num})"
+        personal: Personal
+        empty:
+          desc: Aquí es donde puede administrar sus publicaciones, pero aún no ha escrito nada.
+          new: Escribe tu primera publicación ahora
+      subscriptions:
+        meta:
+          title: Suscripciones %{title}
+        heading: Suscripciones
+        subhead:
+          text_html: "%{for} %{source}"
+          for: para
+        empty: Aún no tienes suscriptores para este %{kind}...
+      summary:
+        reactions: Total de reacciones de la publicación
+        views: Total de vistas de la publicación
+        listings: Listados creados
+        credits: Créditos disponibles
+        lt_500: "< 500"
