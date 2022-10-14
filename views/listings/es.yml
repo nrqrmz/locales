@@ -1,0 +1,80 @@
+---
+es:
+  views:
+    listings:
+      meta:
+        description: "Listado de %{community}"
+      heading: Listados
+      back: Atrás
+      delete:
+        subtitle: ¿Está seguro de que desea eliminar este listado?
+        description:
+          text_html: No puede deshacer esta acción, ¿quizás solo desee %{action} en su lugar?
+          edit: editar
+          unpublish: despublicar
+        edit: Editar
+        submit: Eliminar
+        unpublish: despublicar
+      edit:
+        heading: Editar Listado
+        bump:
+          subtitle: Mejora tu listado
+          button: Mejorar listado
+          description: Puede aumentar su listado por el mismo precio que el listado original
+          last: 'Última publicación/Mejorada: %{date}'
+        notice: Solo puede editar el título, el cuerpo o las etiquetas de los borradores o dentro de las primeras 24 horas del listado de la publicación.
+        not_published:
+          text_html: Este listado %{not} está publicado.
+          aside_html: Este listado %{not} está publicado.
+          not: no
+        publish: Publicar listado
+        unpublish: Despublicar listado
+        update: Actualizar listado
+        update_draft: Actualizar borrador
+      to_edit: Editar
+      errors:
+        one: '1 error prohibió que se guardara este listado:'
+        other: "%{count} errores prohibieron que se guardara esta lista:"
+      expired: This listing has expired.
+      form:
+        body_markdown:
+          description: 400 caracteres como máximo, 12 saltos de línea como máximo, no se permiten imágenes, *se recomienda usar Markdown*. Incluya un método de contacto si es necesario
+          placeholder: "..."
+        category:
+          label: Categoría
+          placeholder: Conferencia CFP (1 Crédito)
+          summary: Detalles/reglas de la categoría
+        expiry:
+          description: Si corresponde para eventos sensibles al tiempo, plazos, etc.
+        location:
+          description: 32 caracteres como máximo, texto sin formato
+          label: Ubicación (si corresponde para eventos, etc.)
+          placeholder: New York
+        no_credit: Necesita al menos un crédito para crear una lista.
+        organization:
+          description: Publicar en nombre de una organización gasta los créditos de la organización.
+          none: Ninguna
+        publish: Publicar listado
+        purchase: Comprar créditos
+        save: Guardar borrador
+        save_notice: No se le cobrarán créditos para guardar un borrador.
+        tags:
+          placeholder: Añade hasta 8 etiquetas...
+        title:
+          placeholder: 128 caracteres como máximo, texto sin formato
+      nav:
+        aria_label: Listados
+        create: Crear
+        manage: Administrar
+      new:
+        meta:
+          title: Nuevo listado
+        heading: Crear un listado de la comunidad
+        buy: Comprar más
+        disclaimer:
+          subtitle: Descargo de responsabilidad
+          description1: "Los administradores de %{community} pueden modificar etiquetas y categorías para garantizar la precisión. También podemos eliminar y reembolsar listados inapropiados".
+          description2: Los listados caducan 30 días después de que se publican o "superan".
+        organization: Créditos de la organización
+        personal: creditos personales
+      preview_icon: logotipo de DEV
