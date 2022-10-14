@@ -1,0 +1,70 @@
+---
+en:
+  views:
+    main:
+      aria_home: "Inicio de %{community}"
+      header:
+        create_account: Crear cuenta
+        login: Iniciar sesión
+        nav:
+          aria_label: Menú de Navegación
+        moderation:
+          aria_label: Moderación
+          icon: Moderación
+        notifications:
+          aria_label: Notificaciones
+          icon: Notificaciones
+        skip: saltar al contenido
+      modal:
+        create_account:
+          aria_label: Crear una nueva cuenta
+          text: Crear una cuenta
+        login:
+          aria_label: Iniciar sesión
+          text: Iniciar sesión
+      nav:
+        admin: Administrador
+        dashboard: Tablero
+        placeholder: "..."
+        list: Lista de lectura
+        moderator_center: Centro del moderador
+        other: Otro
+        settings: Ajustes
+      nav_name:
+        About: Acerca
+        Code of Conduct: Código de conducta
+        Contact: Contacto
+        FAQ: Preguntas Frecuentes
+        Listings: listados
+        Podcasts: Podcasts
+        Privacy Policy: Política de privacidad
+        Reading List: Lista de lectura
+        Tags: Etiquetas
+        Terms of use: Términos de Uso
+        Videos: Videos
+      side:
+        listings:
+          heading: listados
+          all: Ver todo
+          new: Crear un listado
+        trend: guías/recursos de tendencias
+        recent: consultado recientemente
+      tags:
+        aria_label: Personalizar la prioridad de la etiqueta
+        follow: Seguir
+        my_tags: Mis etiquetas
+        popular_tags: Etiquetas Populares
+      footer:
+        built:
+          text_html: Basado en %{forem}, el software %{opensource} que impulsa a %{dev} y otras comunidades inclusivas.
+          forem: Forem
+          opensource: open source
+          dev: DEV
+        desc_html: "%{community} — %{desc}"
+        logo: logotipo de forem
+        powered:
+          text_html: Hecho con amor y %{rails}. %{comunidad} <span title="copyright">&copy;</span> %{copyright}.
+          rails: Ruby on Rails
+      home: Inicio
+      create_post: Crear Publicación
+      signout: Cerrar Sesión
