@@ -1,0 +1,17 @@
+---
+es:
+  validators:
+    bytesize_validator:
+      non_negative: ":maximum debe ser un número entero no negativo"
+    color_contrast_validator:
+      must_be_darker: Debe ser más oscuro para la accesibilidad
+    emoji_only_validator:
+      invalid_emoji: contiene caracteres que no son emojis o emojis no válidos
+    existing_published_article_id_validator:
+      default: debe ser un identificador de artículo publicado válido
+    profile_validator:
+      too_long: Es demasiado largo
+    unique_cross_model_slug_validator:
+      is_taken: ya está tomado
+    valid_domain_csv_validator:
+      invalid_list_format: debe ser una lista separada por comas de dominios válidos

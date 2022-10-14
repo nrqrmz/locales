@@ -10,5 +10,5 @@ es:
     author: Autor activo de %{community}
   mailer:
     adjust: Configura tus ajustes de correo electrónico
-    adjust_only_html: ¿No deseas recibir correos como este? Configure sus ajustes de correo en %{path}
+    adjust_only_html: ¿No deseas recibir correos como este? Configure sus ajustes de correo enw %{path}
     unsubscribe: Quitar subscripción
