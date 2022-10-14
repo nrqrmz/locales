@@ -1,14 +1,14 @@
 ---
-en:
+es:
   xml:
     opensearch:
-      short_name: "%{community} Search"
-      description: Find posts from %{community}.
+      short_name: "Buscar en %{community}"
+      description: Encontrar publicaciones de %{community}.
     user:
-      image: "%{user} profile image"
+      image: "imagen de perfil de %{user}"
   json:
-    author: Active %{community} author
+    author: Autor activo de %{community}
   mailer:
-    adjust: Adjust your email settings
-    adjust_only_html: Don't want to get emails like this? Adjust your email settings at %{path}
-    unsubscribe: Unsubscribe
+    adjust: Configura tus ajustes de correo electrónico
+    adjust_only_html: ¿No deseas recibir correos como este? Configure sus ajustes de correo en %{path}
+    unsubscribe: Quitar subscripción
