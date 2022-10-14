@@ -1,0 +1,25 @@
+---
+es:
+  views:
+    manager:
+      meta:
+        title: Administrar %{title}
+      error:
+        pins: "¡Oh, oh! %{error} 😬"
+      tools:
+        heading: 'Herramientas:'
+        subtitle: 'Nivel de experiencia de la publicación:'
+        text_html: "¿Tu publicación está escrita más para un público principiante o avanzado? Ajusta este nivel como un indicador <em>suave</em> que ayudará a mostrar la publicación a las personas que se beneficiarán más".
+      nav:
+        dashboard: Tablero
+        text: "👉 Administra tu publicación"
+      rating:
+        heading: Nivel de experiencia de la publicación
+        text: ¿Para quién es más relevante esta publicación?
+        lower: "👈 Principiante"
+        higher: "Experto 👉"
+      tips:
+        heading: 'Tips:'
+        text_1: Escribe tu propio tweet sobre la publicación, describiendo personalmente por qué lo escribiste o por qué la gente podría encontrarlo útil. Podemos retuitearte.
+        text_2_html: 'Compartir para enlazar agregadores como <a href="https://www.reddit.com">Reddit</a>. Intente elegir los subreddits más específicos del tema, como <a href="https://www.reddit.com/r/javascript">/r/javascript</a> o <a href="https:// www.reddit.com/r/python">/r/python</a>, etc. <em>Advertencia: los idiotas y los trolls pueden estar al acecho.</em>'
+        text_3: Comparta con sus compañeros de trabajo o comunidades locales. Pide a la gente que te deje preguntas en los comentarios. Es una gran manera de provocar una discusión adicional.
