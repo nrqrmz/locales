@@ -1,0 +1,152 @@
+---
+en:
+  views:
+    comments:
+      meta:
+        title_root: Discusión de %{title}
+        description: Un artículo de la comunidad.
+        og:
+          title: Discusión de %{title}
+          title_rel: "%{root} — %{site}"
+          title_root: "[Discussion] %{title} — %{site}"
+          description: "Comentario de %{site}"
+      parent:
+        subtitle_html: "%{start}Debate en: %{end}%{title}"
+        metadata_html: "%{name}%{on}"
+        date: " on %{date}"
+        full: Discusión completa
+        read: Leer publicación completa
+        view: Ver publicación
+        view_full:
+          one: Ver discusión completa (%{count} comentario)
+          other: Ver discusión completa (%{count} comentarios)
+        reply_html: "%{start}Respuestas para:%{end} %{title}"
+      delete:
+        heading: ¿Seguro que quieres eliminar este comentario?
+        desc_html: No puede deshacer esta acción, ¿quizás solo desee %{action} en su lugar?
+        action: Editar
+        submit: Borrar
+        edit: Editar
+        cancel: Descartar
+        comment_deleted: Comentario eliminado
+      collapse: Colapsar
+      edit: Editando comentario
+      edited:
+        text_html: "&bull; Editado %{on}"
+        on_html: en %{date}
+      expand: Expandir
+      visible_signed_in:
+        text_html: "Es posible que algunos comentarios solo sean visibles para los visitantes registrados. %{sign_in} para ver todos los comentarios".
+        sign_in: "Inicie sesión"
+      hidden:
+        text_html: El autor de la publicación ha ocultado algunos comentarios- %{info}
+        info: Saber más
+        comment_hidden: Comentario oculto por el autor de la publicación
+      hider:
+        description_html: ¿Seguro que quieres ocultar este comentario? Se ocultará en su publicación, pero seguirá siendo visible a través del %{permalink} del comentario.
+        hide_child: Ocultar los comentarios de relacionados también
+        note_html: Para otras acciones, puede considerar bloquear a esta persona y/o %{reporting}
+        permalink: enlace permanente
+        reporting: reportar abuso
+        submit: Confirmar
+      locked: La discusión ha sido bloqueada. No se pueden agregar nuevos comentarios.
+      orphan:
+        deleted: "[Comentario de una publicación eliminada]"
+      re:
+        text_html: "%{re}%{title}"
+        re: 'Re: '
+      settings:
+        meta:
+          title: Configuración de comentarios
+        heading: Configuración de comentarios
+        state:
+          show:
+            subtitle: Mostrando notificaciones de conversaciones
+            desc: Recibirás todas las notificaciones de este comentario y cualquiera de tus comentarios en esta cadena.
+          mute:
+            subtitle: Silenciar notificaciones de este hilo
+            desc: Todas las notificaciones de este comentario y cualquiera de sus comentarios en el hilo están actualmente silenciados.
+        subscribe:
+          subtitle: Suscripción
+          desc: Aún está suscrito a todos los comentarios en el hilo más amplio, lo que significa que aún recibirá notificaciones para las respuestas a este comentario.
+          mute: Silenciar notificaciones
+          unmute: Dejar de silenciar notificaciones
+      quality:
+        low: Comentario marcado como de baja calidad/no constructivo por la comunidad.
+        conduct: Ver código de conducta
+        hidden:
+          icon: Información
+          text:
+            visible_in_permalink: Comentario oculto por el autor de la publicación - hilo solo visible en este enlace permanente
+            accessible_via_permalink: Comentario oculto por el autor de la publicación - hilo solo accesible a través de un enlace permanente
+      write:
+        errors:
+          one: '1 error prohibió guardar este comentario:'
+          other: "%{count} errores prohibieron que se guardara este comentario:"
+        field:
+          aria_label: Agregar un comentario a la discusión
+          placeholder: Agregar a la discusión
+          submit: Subir
+          templates: Plantillas
+          upload: Cargar imagen
+          use: Usar una plantilla de respuesta
+          guide:
+            title: Guía de Markdown
+            icon: Guía del editor
+        template:
+          article: Esta publicación viene con una plantilla de comentario.
+          create:
+            subtitle: Crear plantilla
+            desc: Las plantillas le permiten responder rápidamente preguntas frecuentes o almacenar recortes para su reutilización.
+          moderator: Usuario de confianza
+          personal: Personal
+        submit: Enviar
+        preview: Vista previa
+        cancel: Descartar
+      menu:
+        aria_label: Alternar menú desplegable
+        icon: Menú desplegable
+        copy:
+          aria_label: Copiar enlace al comentario de %{user}
+          text: Copiar enlace
+        settings:
+          aria_label: Ir a la configuración de comentarios de %{user}
+        action:
+          aria_label: "Comentario de %{action} %{user}"
+          hide: Ocultar
+          unhide: Mostrar
+          hide_text: Ocultar
+          unhide_text: Mostrar
+        moderate:
+          aria_label: Moderar el comentario de %{user}
+        report:
+          aria_label: Reportar el comentario de %{user} como abusivo o que viola nuestro código de conducta y/o términos y condiciones
+      footer:
+        heart:
+          aria_label: like
+          title: Like
+          icon: 'Dar me gusta al comentario: '
+          count_html: "%{num}%{likes}"
+          text: Like
+        reply:
+          aria_label: Responder a un comentario...
+          icon: Botón de comentarios
+          done: Respondido
+          text: Responder
+          placeholder: Responder...
+        thread:
+          icon: Hilo
+          text: Hilo
+        view:
+          icon: Ver botón
+          text: Ver
+      count:
+        one: "%{count} comentario"
+        other: "%{count} comentarios"
+      empty: Nuevo
+      add: "Add\_Comment"
+      summary:
+        count_html:
+          one: "%{count}%{start}\_comment%{end}"
+          other: "%{count}%{start}\_comments%{end}"
+        title: Comentarios
