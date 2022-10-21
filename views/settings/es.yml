@@ -1,0 +1,278 @@
+---
+es:
+  views:
+    settings:
+      meta:
+        title: Ajustes
+      account:
+        connect: Conectar la cuenta de %{provider}
+        emails: Correos electrónicos de la cuenta
+        primary: Correo electrónico principal
+        provider_email: "Correo electrónico de %{provider}"
+        provider_profile: "Configuración de perfil de %{provider}"
+        delete:
+          heading: Eliminar cuenta
+          desc1: 'Eliminar su cuenta:'
+          desc1a: |
+            Eliminará su perfil, junto con sus asociaciones de autenticación.
+            Esto no incluye permisos de aplicaciones. Tendrás que eliminarlos tú mismo:
+          desc1b: Elimine todo el contenido que tenga, como artículos, comentarios o su lista de lectura.
+          desc1c: Permita que su nombre de usuario esté disponible para cualquier persona.
+          desc2_html: Por favor, %{provide} para eliminar completamente su cuenta.
+          provide: proporcione un correo electrónico
+          submit: Eliminar cuenta
+        export:
+          heading: Exportar contenido
+          desc: Puede solicitar una exportación de todo su contenido. Actualmente solo admitimos la exportación de sus publicaciones y comentarios, si los tiene. Serán enviados por correo electrónico a su bandeja de entrada.
+          label: Solicita una exportación de tu contenido
+          requested: Ha solicitado recientemente una exportación de su contenido. Por favor revise su correo electrónico.
+          submit: Enviar solicitud de datos
+        remove:
+          heading: Eliminar asociaciones de OAuth
+          desc1: Puede eliminar uno de sus métodos de autenticación. Seguiremos necesitando uno para autenticarte.
+          desc2: 'Eliminar una asociación de OAuth:'
+          desc2a: eliminará su capacidad para iniciar sesión con esa cuenta
+          desc2b: eliminará la URL asociada de su perfil
+          desc3: |
+            Tenga en cuenta que esto no revoca nuestro acceso a la aplicación OAuth;
+            tendrá que hacerlo en su configuración para el proveedor específico:
+          confirm: ¿Está absolutamente seguro de que desea eliminar su cuenta de %{provider}?
+          submit: Eliminar %{proveedor}
+      billing:
+        heading: Facturación
+        add: Añadir tarjeta de crédito
+        another: "+ Agregar otra tarjeta de crédito"
+        cards: Tus tarjetas de crédito
+        exp: Vigencia %{mes} / %{año}
+        label: Agregar tarjeta
+        number: "%{brand} termina en %{last}"
+        make: Hacer principal
+        primary: principal
+        remove: Quitar tarjeta
+      characters: "Caracteres disponibles utilizados: "
+      complete:
+        heading: Confirma tu correo electrónico para completar tu perfil.
+        desc: Mientras estás en eso, sigue adelante y completa todo.
+        github: Conecte su cuenta de github también para completar su identidad.
+        twitter: Conecta también tu cuenta de twitter para completar tu identidad.
+      custom:
+        adjacent: Permitir patrocinadores cercanos (al publicar)
+        announce: Anuncios
+        announce_desc: Los anuncios le informan sobre información importante de todo el sitio, como actualizaciones y eventos.
+        announce_field: Mostrar anuncios (al navegar)
+        appearance: Apariencia
+        basic: descuento básico
+        content: Contenido
+        editor: Versión del editor
+        fixed: Fijado a la ventana
+        font: Fuente de lectura base
+        level: ¿Cuál es su nivel de experiencia aproximado (1-5)?
+        level_desc: Esto no se mostrará en su perfil ni en ningún lugar público. Ayuda a determinar suavemente qué contenido se muestra junto con las etiquetas que usted sigue, etc.
+        navbar: Barra de navegación del sitio
+        rich: Rich + markdown
+        save: Guardar
+        sponsor: Patrocinadores
+        sponsor_desc: Tiene la opción de eliminar los mensajes del patrocinador (donde sea práctico hacerlo). Nuestros maravillosos patrocinadores ayudan a mantener la plataforma y mejorar su experiencia, y nos esforzamos por hacer que su presencia sea constructiva para la comunidad, pero siéntase libre de usar esta configuración si lo desea.
+        sponsor_field: Mostrar patrocinadores (al navegar)
+        static: Parte superior estática de la página
+        theme: Tema del sitio
+        writing: Escritura
+      danger: Zona peligrosa
+      destroy:
+        heading: Destruye tu cuenta
+        desc: 'Eliminar su cuenta:'
+        desc_1_html: eliminará su perfil, junto con sus asociaciones de Twitter y/o GitHub. Esto no incluye los permisos de la aplicación. Tendrá que eliminarlos usted mismo en %{twitter} y %{github}.
+        desc_2: eliminará todo el contenido que tenga, como artículos, comentarios o su lista de lectura.
+        desc_3: permitirá que su nombre de usuario esté disponible para cualquier persona.
+        click: haga clic aquí
+        confirm_html: 'Para confirmar, escriba las palabras: <code>%{word}</code>'
+        ghost_html: Si desea mantener su contenido en la cuenta %{ghost}, por favor %{click}
+        github: Configuración del perfil de GitHub
+        submit: Borrar cuenta
+        to_delete: 'Para eliminar su cuenta:'
+        twitter: Configuración del perfil de Twitter
+        type: Escriba su nombre de usuario
+        username: nombre de usuario
+        word: borrar mi cuenta
+      email: Verificacion de correo electrónico.
+      errors:
+        org:
+          one: '1 error prohibió que se guardara el perfil de su organización:'
+          other: "%{count} errores prohibieron que se guardara el perfil de su organización:"
+        profile:
+          one: '1 error prohibió que se guardara su perfil:'
+          other: "%{count} errores impidieron que se guardara su perfil:"
+      extensions:
+        api:
+          heading: "Claves API de %{community}"
+          desc_html: Puede generar claves de API personales para usarlas en la autenticación con la API de %{community}. La API aún se encuentra en su etapa beta. El %{doc} contiene más información.
+          active:
+            heading: Claves de API activas (¡nunca las compartas!)
+            created: 'Creado: %{hora}'
+          doc: documentación
+          gen:
+            heading: Generar una nueva Clave
+            label: Descripción
+            text: ¿Para qué sirve esta clave API?
+            placeholder: Nombre de mi proyecto
+            submit: Generar clave API
+          revoke: Revocar
+        comment:
+          heading: Plantillas de comentarios
+          desc_html: Cree y guarde <strong>plantillas de comentarios</strong> que pueda reutilizar.
+          add: Agregar nueva plantilla de comentario
+          confirm: '¿Estás seguro de que quieres eliminar:% {template}?'
+          create: Crear una nueva plantilla de respuesta
+          cue: Señal memorable para plantilla
+          edit: Editar
+          edit_template: Editar plantilla de comentario
+          remove: Remover
+          save: Guardar plantilla
+          saved: Plantillas guardadas
+          trusted: Plantillas de usuario de confianza
+        github:
+          heading: GitHub
+          desc1: Fija tus repositorios de GitHub a tu perfil.
+          desc2: Los repositorios desaparecerán de su perfil si elimina la asociación de OAuth con GitHub.
+        rss:
+          heading: Publicación en %{community} desde RSS
+          desc1_html: Las publicaciones llegarán a su %{dashboard} <strong>como borradores</strong> y podrá publicarlas desde allí.
+          desc2: El formateo generalmente se verá bien, pero es posible que deba realizar correcciones manuales. En el caso de Medium, es posible que deba corregir manualmente las incrustaciones
+          desc3_html: Para obtener más información sobre cómo se crean los borradores a partir de su feed, lea esta %{guide}.
+          desc4: Su fuente se obtendrá cada vez que envíe este formulario y las actualizaciones se obtendrán automáticamente y de manera periódica a partir de entonces.
+          desc5_html: 'Para su información: las URL del RSS de Medium son <em>https://medium.com/feed/@your_username</em>'
+          desc6: Al enviar la URL de su fuente RSS, acepta que posee y/o tiene permiso para sindicar el contenido asociado.
+          dashboard: panel
+          fetch: Obtener feed ahora
+          guide: guía
+          last_html: 'Última captura: %{time}'
+          mark_canonical_html: Marque la fuente de RSS como URL canónica de forma predeterminada <p class='crayons-field__description'>Si marca esta casilla, la publicación marcará automáticamente la fuente de feed como la URL canónica.</p>
+          referential_html: Reemplace los enlaces autorreferenciales con enlaces específicos de %{community} <p class='crayons-field__description'>Si marca esta casilla, la publicación cambiará automáticamente cualquier URL incluida en la publicación para hacer referencia a la versión de ese artículo en %{community} si está disponible. Esto está destinado principalmente a las personas que migran todo su blog a %{community}.</p>
+          save: Guardar configuración de feed
+          submit: Enviar configuración de feed
+        web_monetization:
+          header: monetización web
+          receive_payments: 'Reciba micropagos por el tiempo dedicado a leer sus publicaciones directamente. '
+          learn_more: Aprende más
+          payment_pointer: Puntero de pago
+          save_settings: Guardar configuración de monetización web
+      finalize_html: Ha solicitado un cambio en %{email}. Busque en su bandeja de entrada el enlace de verificación para finalizar el cambio.
+      for_html: Configuración para %{name}
+      group:
+        user: Usuario
+        Basic: Básico
+        Branding: Marca
+        Coding: Programación
+        Work: Trabajo
+      new_org: Nueva Organización
+      notifications:
+        email: Notificaciónes de Correo Electrónico
+        general: Notificaciones generales
+        general_desc_html: Notificaciones que solo aparecen en la %{page}
+        mobile: Notificaciones móviles
+        moderator: Notificaciones del moderador
+        page: página de notificaciones
+        save: Guardar
+      org:
+        admin:
+          admin: Administrador
+          copy:
+            button:
+              aria_label: Copie el código secreto de la organización al portapapeles
+            icon: Copiar al portapapeles
+            input:
+              aria_label: Secreto de la organización (para rotar regularmente)
+            text: ¡Copiado al portapapeles!
+          cta: Cuadro de llamada a la acción
+          cta_desc: Customizable text that appears to the right of every post for your organization.
+          delete:
+            heading: Delete Organization
+            confirm: 'Are you absolutely sure you want to delete your organization: %{name}?'
+            desc_html: |-
+              You can delete your organization if you:
+              <ul>
+                <li>are the only member in the organization</li>
+                <li>are an admin of the organization</li>
+                <li>the organization has no posts</li>
+                <li>and the organization has no credits</li>
+              </ul>
+            submit: Delete "%{name}"
+            questions_html: Questions? Email us at %{email} for help.
+            unmet: Your organization currently does not meet the above requirements. Please remove all other members and organization posts first.
+          details: Organization details
+          form:
+            slug: 'Your organization''s URL is: %{slug}'
+            tag_line: Limit of 60 characters
+            summary: Limit of 250 characters
+            location: Limit of 64 characters
+            email: Limit of 64 characters
+            company_size: Enter a number
+            story: Limit of 640 characters
+            tech_stack: Limit of 640 characters
+            cta_body_markdown: 'Limited markdown: _italic_ and **bold** is okay. Links, and headers etc. will not show up. 256 character limit.'
+            cta_button_text: Limit of 20 characters
+            submit: Save
+          gen:
+            confirm: Are you sure you want to generate a new secret? All outstanding secrets will be invalid.
+            text: You should rotate this regularly!
+            submit: Generate new secret
+          grow: Grow the team
+          invite: 'Invite teammates by sending them the secret and the following instructions:'
+          inst1_html: Sign up at %{url}
+          inst2_html: Navigate to %{url}
+          inst3_html: Paste the secret code below and click <b>Join Organization</b>
+          make:
+            confirm: Are you sure you want to give %{user} admin status?
+            title: Make admin
+            text: Make admin
+          members: Organization Members
+          remove:
+            confirm: Are you sure you want remove %{user} from the organization?
+            title: Remove from org
+            text: Remove from org
+          revoke:
+            confirm: Are you sure you want to take away admin status from %{user}?
+            title: Revoke admin status
+            text: Revoke admin status
+          secret_code: 'Your secret code is:'
+          you: You
+        create:
+          heading: Create An Organization
+          notice: You must have your organization's permission to submit this form. Dishonesty may result in a permanent suspension.
+          proof: This is just a quick blurb indicating or link that shows that you clearly are associated with this organization.
+          required: Starred fields are required
+          slug: Your organization URL will be %{url}/{username}
+          submit: Create Organization
+        join:
+          heading: Join An Organization
+          desc: Provided to you by an org admin
+          label: Secret code
+          placeholder: "..."
+          submit: Join Organization
+        leave:
+          confirm: Are you sure you want to leave this organization?
+          submit: Leave Organization
+        divider: OR
+      password:
+        heading: Set new password
+        desc_html: |-
+          If your account was created using social account authentication, you may prefer to add an email
+          log in. If you signed up with a social media account, <a href="%{path}">
+          please reset the password</a> for your primary email address (%{email}) in
+          order to enable this. Please note that email login is in addition to social login rather than
+          a replacement for it, so your authenticated social account will continue to be linked to your
+          account.
+        current: Current password
+        confirm: Confirm new password
+        new: Password
+        submit: Set New Password
+      previous: There is an existing account authorized with that social account.
+      tab:
+        Profile: Profile
+        Customization: Customization
+        Notifications: Notifications
+        Account: Account
+        Billing: Billing
+        Organization: Organization
+        Extensions: Extensions
+      save_profile: Save Profile Information
