@@ -1,0 +1,60 @@
+---
+es:
+  views:
+    tags:
+      meta:
+        title: Etiquetas
+        description: Etiquetas para seguir en %{community}
+        og:
+          description: "¡%{community} es genial!"
+      heading:
+        default: Etiquetas principales
+        search_results: Resultados de búsqueda para %{q}
+      search:
+        aria_labels:
+          search_input: Término de búsqueda de etiquetas
+          submit: Buscar etiquetas
+        placeholder: Buscar por etiqueta
+      edit:
+        meta:
+          title: Editar %{tag}
+        admin: "Administrador"
+        help: "Ayuda"
+        view: "Ver"
+        form:
+          pretty_name:
+            label: Nombre bonito
+            placeholder: Este es el nombre en la parte superior de la página.
+          bg_color_hex:
+            label: Color de la etiqueta
+          short_summary:
+            label: Breve resumen
+            placeholder: Breve resumen de lo que se trata esta etiqueta.
+          wiki_body_markdown:
+            label: Markdown del body del wiki
+            placeholder: Esta es una sección 'acerca de'. Siéntase libre de agregar preguntas frecuentes, recursos adicionales, etc.
+          rules_markdown:
+            label: Reglas del markdown
+            placeholder: Opcional- se puede usar para desafíos, es decir, pautas de presentación.
+          submit: Guardar
+      follow: Seguir
+      following_tags: Etiquetas seguidas
+      moderator:
+        text_html: "separados por comas, el espacio es opcional. Ejemplo: %{code}"
+        code: 123
+        placeholder: "separados por comas, el espacio es opcional. Ejemplo: 1,2,3"
+      published:
+        one: 1 publicación publicada
+        other: "%{count} publicaciones publicadas"
+      sidebar:
+        about: 'acerca de #%{tag}'
+        admin: Administrador
+        edit: Editar
+        guidelines: Directrices para el envío
+        moderate: Moderar
+        mods: etiquetar moderadores
+        new: Crear Publicación
+        older: '#%{tag} publicaciones más antiguas'
+        published:
+          one: 1 publicación publicada
+          other: "%{count} publicaciones publicadas"
