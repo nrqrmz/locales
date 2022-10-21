@@ -183,96 +183,91 @@ es:
             input:
               aria_label: Secreto de la organización (para rotar regularmente)
             text: ¡Copiado al portapapeles!
-          cta: Cuadro de llamada a la acción
-          cta_desc: Customizable text that appears to the right of every post for your organization.
+          cta: Cuadro de llamado a la acción
+          cta_desc: Texto personalizable que aparece a la derecha de cada publicación de su organización.
           delete:
-            heading: Delete Organization
-            confirm: 'Are you absolutely sure you want to delete your organization: %{name}?'
+            heading: Eliminar organización
+            confirm: '¿Está completamente seguro de que desea eliminar su organización: %{name}?'
             desc_html: |-
-              You can delete your organization if you:
+              Puede eliminar su organización si:
               <ul>
-                <li>are the only member in the organization</li>
-                <li>are an admin of the organization</li>
-                <li>the organization has no posts</li>
-                <li>and the organization has no credits</li>
+                <li>es el único miembro de la organización</li>
+                <li>es un administrador de la organización</li>
+                <li>la organización no tiene publicaciones</li>
+                <li>y la organización no tiene créditos</li>
               </ul>
-            submit: Delete "%{name}"
-            questions_html: Questions? Email us at %{email} for help.
-            unmet: Your organization currently does not meet the above requirements. Please remove all other members and organization posts first.
-          details: Organization details
+            submit: Borrar "%{name}"
+            questions_html: ¿Preguntas? Envíenos un correo electrónico a %{email} para obtener ayuda.
+            unmet: Su organización actualmente no cumple con los requisitos anteriores. Primero elimine todos los demás miembros y publicaciones de la organización.
+          details: Detalles de la organización
           form:
-            slug: 'Your organization''s URL is: %{slug}'
-            tag_line: Limit of 60 characters
-            summary: Limit of 250 characters
-            location: Limit of 64 characters
-            email: Limit of 64 characters
-            company_size: Enter a number
-            story: Limit of 640 characters
-            tech_stack: Limit of 640 characters
-            cta_body_markdown: 'Limited markdown: _italic_ and **bold** is okay. Links, and headers etc. will not show up. 256 character limit.'
-            cta_button_text: Limit of 20 characters
-            submit: Save
+            slug: 'La URL de su organización es: %{slug}'
+            tag_line: Límite de 60 caracteres
+            summary: Límite de 250 caracteres
+            location: Límite de 64 caracteres
+            email: Límite de 64 caracteres
+            company_size: Ingrese un número
+            story: Límite de 640 caracteres
+            tech_stack: Límite de 640 caracteres
+            cta_body_markdown: 'Markdown limitado: _italic_ y **bold** está bien. Los enlaces, encabezados, etc. no aparecerán. Límite de 256 caracteres.'
+            cta_button_text: Límite de 20 caracteres
+            submit: Guardar
           gen:
-            confirm: Are you sure you want to generate a new secret? All outstanding secrets will be invalid.
-            text: You should rotate this regularly!
-            submit: Generate new secret
-          grow: Grow the team
-          invite: 'Invite teammates by sending them the secret and the following instructions:'
-          inst1_html: Sign up at %{url}
-          inst2_html: Navigate to %{url}
-          inst3_html: Paste the secret code below and click <b>Join Organization</b>
+            confirm: ¿Está seguro de que desea generar un nuevo secreto? Todos los secretos pendientes serán inválidos.
+            text: ¡Deberías rotar esto regularmente!
+            submit: Generar un nuevo secreto
+          grow: Hacer crecer el equipo
+          invite: 'Invita a tus compañeros de equipo enviándoles el secreto y las siguientes instrucciones:'
+          inst1_html: Regístrese en %{url}
+          inst2_html: Navegar a %{url}
+          inst3_html: Pegue el código secreto a continuación y haga clic en <b>Unirse a la organización</b>
           make:
-            confirm: Are you sure you want to give %{user} admin status?
-            title: Make admin
-            text: Make admin
-          members: Organization Members
+            confirm: ¿Está seguro de que desea otorgar el rol de administrador a %{user}?
+            title: Hacer administrador
+            text: Hacer administrador
+          members: Miembros de la organización
           remove:
-            confirm: Are you sure you want remove %{user} from the organization?
-            title: Remove from org
-            text: Remove from org
+            confirm: ¿Está seguro de que desea eliminar a %{user} de la organización?
+            title: Quitar de la organización
+            text: Quitar de la organización
           revoke:
-            confirm: Are you sure you want to take away admin status from %{user}?
-            title: Revoke admin status
-            text: Revoke admin status
-          secret_code: 'Your secret code is:'
-          you: You
+            confirm: ¿Está seguro de que desea quitarle el rol de administrador a %{user}?
+            title: Revocar rol de administrador
+            text: Revocar rol de administrador
+          secret_code: 'Tu código secreto es:'
+          you: Usted
         create:
-          heading: Create An Organization
-          notice: You must have your organization's permission to submit this form. Dishonesty may result in a permanent suspension.
-          proof: This is just a quick blurb indicating or link that shows that you clearly are associated with this organization.
-          required: Starred fields are required
-          slug: Your organization URL will be %{url}/{username}
-          submit: Create Organization
+          heading: Crear una organización
+          notice: Debe tener el permiso de su organización para enviar este formulario. La deshonestidad puede resultar en una suspensión permanente.
+          proof: Este es solo un resumen rápido que indica o un enlace que muestra que usted está claramente asociado con esta organización.
+          required: Los campos destacados son obligatorios
+          slug: La URL de su organización será %{url}/{username}
+          submit: Crear organización
         join:
-          heading: Join An Organization
-          desc: Provided to you by an org admin
-          label: Secret code
+          heading: Únase a una organización
+          desc: Proporcionado por un administrador de la organización
+          label: Código secreto
           placeholder: "..."
-          submit: Join Organization
+          submit: Unirse a la organización
         leave:
-          confirm: Are you sure you want to leave this organization?
-          submit: Leave Organization
-        divider: OR
+          confirm: ¿Está seguro de que desea abandonar esta organización?
+          submit: Dejar la organización
+        divider: O
       password:
-        heading: Set new password
+        heading: Establecer nueva contraseña
         desc_html: |-
-          If your account was created using social account authentication, you may prefer to add an email
-          log in. If you signed up with a social media account, <a href="%{path}">
-          please reset the password</a> for your primary email address (%{email}) in
-          order to enable this. Please note that email login is in addition to social login rather than
-          a replacement for it, so your authenticated social account will continue to be linked to your
-          account.
-        current: Current password
-        confirm: Confirm new password
-        new: Password
-        submit: Set New Password
-      previous: There is an existing account authorized with that social account.
+          Si su cuenta se creó utilizando la autenticación de cuenta social, es posible que prefiera agregar un correo electrónico para iniciar sesión. Si se registró con una cuenta de redes sociales, <a href="%{path}"> por favor restablezca la contraseña</a> de su dirección de correo electrónico principal (%{email}) a fin de habilitar esto. Por favor tenga en cuenta que el inicio de sesión por correo electrónico se suma al inicio de sesión social en lugar de remplazarlo, por lo que su cuenta social autenticada continuará vinculada a su cuenta.
+        current: Contraseña actual
+        confirm: Confirmar nueva contraseña
+        new: Contraseña
+        submit: Establecer nueva contraseña
+      previous: Hay una cuenta existente autorizada con esa cuenta social.
       tab:
-        Profile: Profile
-        Customization: Customization
-        Notifications: Notifications
-        Account: Account
-        Billing: Billing
-        Organization: Organization
-        Extensions: Extensions
-      save_profile: Save Profile Information
+        Profile: Perfil
+        Customization: Personalización
+        Notifications: Notificaciones
+        Account: Cuenta
+        Billing: Facturación
+        Organization: Organización
+        Extensions: Extensiones
+      save_profile: Guardar información de perfil
